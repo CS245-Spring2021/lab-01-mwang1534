@@ -1,0 +1,8 @@
+The running time of the method highestAltitude is Big-O of n.
+This is because the for loop only contains operations of addition and within the if statement,
+    there is also only addition operations. This would result in 3n, but in Big-O constants are
+    ignored. Thus the running time of highestAltitude is Big-O of n.
+
+The space required for the implementation of highestAltitude is Big-O of n.
+This is because there are three variables declared in the class. We have the intArray gain[] and two int variables,
+    altitidue and maxAltitude.
